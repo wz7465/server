@@ -18,7 +18,7 @@ const DOMAIN = process.env.DOMAIN || 'web.wz7465.cloudns.org';
 const WSPATH = process.env.WSPATH || UUID.slice(0, 8);
 const SUB_PATH = process.env.SUB_PATH || 'sub33';
 const NAME = process.env.NAME || '';
-const PORT = process.env.PORT || 35518;
+const PORT = process.env.PORT || 55548;
 
 // ============================================================
 // ISP
@@ -493,7 +493,7 @@ const ROUTES = [
   {
     publicPort: 80,
     localHost: '127.0.0.1',
-    localPort: 35518
+    localPort: 55548
   },
 
   {
